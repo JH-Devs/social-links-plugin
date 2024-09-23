@@ -1,0 +1,17 @@
+{
+    "name": "Social Links",
+    "version": "1.0.0",  
+    "id": "social-links",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.cz",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 3,
+    "routes": {
+        "on": ["all"],
+        "off": ["login", "register", "logout"]
+    },
+    "dependencies": {
+        "basic-admin": "1.0.0"
+    }
+}
